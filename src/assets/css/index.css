@@ -1,0 +1,50 @@
+.header{
+    width: 100%;
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    box-sizing: border-box;
+  }
+  *{
+    margin: 0px;
+    padding: 0px;
+  }
+  .main{
+    width: 100%;
+  }
+  
+  .head-part{
+    text-align: center;
+    padding: 30px;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .lines{
+    max-width: 1400px;
+    margin: auto;
+  }
+  .faq-part{
+    border: 2px solid black;
+    margin: 15px 0px;
+    position: relative;
+  }
+  .faq-part h2 {
+    background-color: gray;
+    color: black;
+    padding: 10px 15px;
+    padding-right: 35px;
+  }
+  .faq-part span{
+    position: absolute;
+    right: 30px;
+    top: 10px;
+  }
+  .faq-part p{
+    padding: 10px 15px;
+  }
+  .display{
+    display: none;
+  }
